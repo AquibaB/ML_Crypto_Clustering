@@ -22,5 +22,8 @@ An example is shown below, using the China news scatter plots to indicate that D
 For institutional news, large-cap tokens tended to react more negatively:
 ![image](https://user-images.githubusercontent.com/85848524/137645796-8d873e3b-2f61-43eb-b6b4-4da2e5e44e33.png)
 
+The conclusions of the project are summarized below:
+![image](https://user-images.githubusercontent.com/85848524/137646412-b5323670-6b25-4769-9cb4-1f5c342ce83a.png)
+
 
 Link to MC_Analysis on Google Colab: https://colab.research.google.com/drive/1zVg8wN15cCza-Al0l8htWiwsxV0yU4Zx?usp=sharing
