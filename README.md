@@ -2,11 +2,11 @@
 
 This project focused on the use of unsupervised learning techniques to glean insights into the price action of different cryptocurrencies, as measured by daily changes in their respective market capitalizations. Additionally, we performed sentiment analysis on news headlines and explored their relationship with price movements.
 
-The technologies utilized included the CoinGecko API, hvplot, sklearn, holoviews, pandas, and matplotlib. Specifically, we leveraged clustering analysis, covariance, and manifold estimation for the price analysis, and manual coding, kmeans, and hvplot for the news analysis.
+The technologies utilized included the CoinGecko API, hvplot, sklearn, holoviews, pandas, and matplotlib. Specifically, we leveraged clustering analysis, covariance, and manifold estimation for the price analysis, and manual coding, kmeans, and hvplot for the news analysis. JupyterLab was used to prepare the data. For additional versatility, we also saved the code in Google Colab.
 
 Installations required include hvplot, sklearn, matplotlib, and pycoingecko. All installs can be completed through !pip install.
 
-Price data was collected from pycoingecko and put into a Pandas DataFrame. For the news analysis, the manual sentiment coding that was performed in Excel was added to the DataFrame. In total, 52 cryptocurrencies were analyzed, along with 64 news events.
+Price data was collected from pycoingecko and put into a Pandas DataFrame. For the news analysis, the manual sentiment coding that was performed in Excel was added to the DataFrame. In total, 52 cryptocurrencies were analyzed, along with 64 news events. Preprocessing was done using MinMaxScaler.
 
 For the price analysis, a three-model cluster was developed, utilizing graphical lasso, affinity propagation, and locally linear embedding. The results are shown here:
 ![image](https://user-images.githubusercontent.com/85848524/137645319-c61f37e4-65a8-412d-bf9e-de395e4ecf40.png)
