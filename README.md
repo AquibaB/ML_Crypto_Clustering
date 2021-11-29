@@ -1,4 +1,4 @@
-# project_2
+# ML Project: Crypto Clustering Analysis
 
 This project focused on the use of unsupervised learning techniques to glean insights into the price action of different cryptocurrencies, as measured by daily changes in their respective market capitalizations. Additionally, we performed sentiment analysis on news headlines and explored their relationship with price movements.
 
